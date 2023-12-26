@@ -5,6 +5,6 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   server: { port: 3000 },
   base: "Sending_front",
-  // base: "/Frontend-RIP",
+  //base: "/Frontend-RIP",
   plugins: [react()],
 })

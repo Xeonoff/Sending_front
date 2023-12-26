@@ -20,7 +20,7 @@ export const Filter: FC<FilterData> = ({title}) => {
                 <Container style={{ transform: "translateY(-40%)", paddingBottom: "20px", paddingLeft: "20px", paddingRight: "20px"}}>
                     <Row><h4 className="filter-text">ФИО получателя</h4></Row>
                     <Row style={{ transform: "translateY(-20%)",paddingRight: "20px" }}>
-                        <input className="filter-input" name="title" type="text" size={30} placeholder="Введите ФИО" value={inputTitle} onChange={(e) => setInputTitle(e.target.value)} />
+                        <input className="filter-input" name="title" type="text" size={30} placeholder="Введите ФИО" value={inputTitle.toLowerCase()} onChange={(e) => setInputTitle(e.target.value)} />
                     </Row>
                 </Container>
 
