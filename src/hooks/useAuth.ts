@@ -53,7 +53,7 @@ export function useAuth() {
                 is_authenticated: true,
                 is_moderator: response.data["is_moder"],
                 user_id: response.data["id"],
-                username: response.data["login"],
+                username: response.data["username"],
             }
 
             setUser(data)
@@ -77,7 +77,7 @@ export function useAuth() {
                 is_authenticated: true,
                 is_moderator: response.data["is_moder"],
                 user_id: response.data["id"],
-                username: response.data["login"],
+                username: response.data["username"],
             }
 
             setUser(data)
